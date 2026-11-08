@@ -1,0 +1,13 @@
+# Local or private data
+.env
+.env.*
+!.env.example
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
+*阅读备份*.json
+*reading-backup*.json
+backups/
+# Retired importer contains account-specific links and is not part of the app
+douban-import.js
